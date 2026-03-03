@@ -1,6 +1,6 @@
 import pandas as pd
 import csv
-"""
+
 #AI generated data, prompt : "generate 20 hotel reservations I can add to a csv file, here are the columns" + column names
 rows = [
     ["id","first_name","last_name","checkin_date","checkout_date","num_nights","num_adults","num_children","room_type","room_num","guest_type","comments"],
@@ -26,9 +26,10 @@ rows = [
     [20,"Mia","Hall","20/03/2026","22/03/2026",2,1,0,"twin",117,"Walk-in",""],
 ]
 
+#add data to + automatically create csv file
  with open("reservations.csv", "w", newline="") as f:
     writer = csv.writer(f)
-    writer.writerows(rows) """
+    writer.writerows(rows) 
 
 #see if worked
 data = pd.read_csv("reservations.csv")

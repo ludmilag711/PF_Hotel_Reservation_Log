@@ -21,6 +21,7 @@ checkout_date - required
 num_nights - required
 num_adults - required
 num_children - required
+room_type - required
 room_num - required
 guest_type - required
 comments - optional
