@@ -1,6 +1,8 @@
 **Date:** 1st March 2026
 **Version** 1
 
+Full project management framework: https://github.com/users/ludmilag711/projects/1/views/2
+
 ## Storage method and basic files required
 
 Data storage - csv file

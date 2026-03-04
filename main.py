@@ -111,7 +111,7 @@ def positive_integer_val(num): #not AI but I did google how to do this
         return False
 
 def date_val(date):  #AI generated code, searched what map does, once fully understood included in my code, only modification is adapting from yyyy-mm-dd format to dd-mm-yyyy format
-    try: # DD-MM-YYYY format validation
+    try: # DD/MM/YYYY format validation
         parts = date.split("/")
         if len(parts) != 3:
             return False
@@ -233,7 +233,7 @@ def modify_reservation():
     print("10. Guest type")
     print("11. Comments")
 
-    mod = input("Enter a number between 1-10: ")
+    mod = input("Enter a number between 1-11: ")
 
     choice_dict = { #create dictionary so users choice corresponds to column name
         "1" : "first_name",
